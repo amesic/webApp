@@ -1,0 +1,200 @@
+*{ /*default*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: #92DAA1;
+}
+@media only screen and (min-width: 601px){
+/*header*/
+.logo{
+    height: 4%;
+    width: 4%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+h1{
+    position: absolute;
+    right:5%;
+    top:1%;
+}
+#meni{
+    margin-bottom: 1%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+    display: block;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 20px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+} 
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: #A1AEB5;
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#forma{
+    border: 1px solid black;
+    margin-right: 25%;
+    margin-left:25%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background: white;
+}
+#noviZadatak p{
+margin-bottom: 7%;
+font-size: 2em;
+text-align: center;
+}
+label{
+    margin-left: 5%;
+    font-size:1em;
+}
+input[type="text"],input[type="file"]{
+    margin-left:5%;
+    padding: 0.2em;
+    width:80%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+select{
+    width:81.5%;
+    margin-left:5%;
+    padding: 0.2em;
+    background: none;
+    border: 1px solid black;
+}
+
+input[type="submit"]{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-left: 61.5%;
+    margin-bottom: 5%;
+    width: 25%;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #F7FB7D;
+}
+
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+    margin-bottom: 0%;
+}
+}
+@media only screen and (max-width: 600px){
+/*header*/
+.logo{
+    height: 7%;
+    width: 7%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+} 
+h1{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 10px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #A1AEB5;
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#forma{
+    border: 1px solid black;
+    margin-right: 25%;
+    margin-left:25%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background: white;
+}
+#noviZadatak p{
+margin-bottom: 7%;
+font-size: 2em;
+text-align: center;
+}
+label{
+    margin-left: 5%;
+    font-size:1em;
+}
+input[type="text"],input[type="file"]{
+    margin-left:5%;
+    padding: 0.2em;
+    width:80%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+select{
+    width:81.5%;
+    margin-left:5%;
+    padding: 0.2em;
+    background: none;
+    border: 1px solid black;
+}
+
+input[type="submit"]{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-left: 61.5%;
+    margin-bottom: 5%;
+    width: 25%;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #F7FB7D;
+}
+
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+    margin-bottom: 0%;
+}
+
+}

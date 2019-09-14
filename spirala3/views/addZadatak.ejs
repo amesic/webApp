@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>addZadatak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/addZadatak.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/headerfooter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="/assets/validacija.js"></script>
+</head>
+<body>
+    <header id="header">
+            <img class="logo" src="/assets/logo.png" alt="logo">
+            <nav id="meni">
+                <ul>
+                <li><a href="zadaci.html">Pregled godina</a></li>
+                <li><a href="addGodina.html">Dodavanje godina</a></li>
+                <li><a href="studenti.html">Pregled studenata</a></li>
+                <li><a href="addVjezba.html">Dodavanje vjezbi</a></li>
+                <li><a href="#">Dodavanje zadataka</a></li>
+                <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                <li><a href="commiti.html">Commiti</a></li>
+                </ul>
+            </nav>  
+            <h1>Dodavanje zadatka</h1> 
+        </header>
+
+        <section id="glavniSadrzaj">
+            <br>
+            <article id="forma">
+
+            <form id="noviZadatak" action="/addZadatak" method="POST" enctype="multipart/form-data">
+                <p>Novi zadatak</p>
+                <label>Naziv zadatka</label><br>
+                <input type="text" name="naziv" id="naziv" required><br><br>
+                <label>Tekst postavke</label><br>
+                <input type="file" name="postavka" required><br><br>
+                
+                <div id="poruka">Sljedeca polja nisu validna:</div>
+                <input type="submit" value="Dodaj" onclick="return provjeri()">
+            </form>
+
+        </article>
+        <br>
+        </section>
+        <footer id="footer">
+                <p>Web tehnologije 2018/19</p>
+            </footer>
+            <script>src="https://code.jquery.com/jquery-3.3.1.min.js"</script>
+            <script src="/assets/addZadatak.js"></script>
+</body>
+</html>

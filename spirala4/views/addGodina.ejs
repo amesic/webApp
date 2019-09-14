@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>addGodina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/addGodina.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/headerfooter.css" />
+    <script src="/assets/validacija.js"></script>
+    <script src="/assets/GodineAjax.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+            <img class="logo" src="/assets/logo.png" alt="logo">
+                <nav id="meni">
+                <ul>
+                    <li><a href="zadaci.html">Pregled godina</a></li>
+                    <li><a href="#">Dodavanje godina</a></li>
+                    <li><a href="studenti.html">Pregled studenata</a></li>
+                    <li><a href="addVjezba.html">Dodavanje vjezbi</a></li>
+                    <li><a href="addZadatak.html">Dodavanje zadataka</a></li>
+                    <li><a href="addStudent.html">Dodavanje studenata</a></li>
+                    <li><a href="commiti.html">Commiti</a></li>
+                    </ul>
+                </nav>  
+                <h1>Dodavanje godine</h1> 
+        </header>
+
+        <div id="glavni">
+
+            <aside id="side">
+                <br>
+                <form id="f" action="/addGodina" method="POST" enctype="application/x-www-form-urlencoded">
+                    <p>Unos godine:</p>
+                    <label>Naziv godine</label><br>
+                    <input type="text" name="nazivGod" id="naziv" required><br><br>
+                    <label>Nazivi repozitorija vjezbe</label><br>
+                    <input type="text" name="nazivRepVje" id="vjezbe" required><br><br>
+                    <label>Nazivi repozitorija spirale</label><br>
+                    <input type="text" name="nazivRepSpi" id="spirala" required><br><br>
+                    <div id="poruka">Sljedeca polja nisu validna: </div>
+                    <div id="dugmad">
+                    <input type="button" name="ponisti" value="Ponisti">
+                    <input type="submit" name="unesi" value="Unesi" onclick="return provjeri()">
+                </div>
+                </form>
+            </aside>
+
+            <section id="glavniSadrzaj">
+                <br>
+                <div id="sadrzaj"></div>
+               <!--<div id="godina">
+                    <div class="godine">
+                        <p>2015/16</p>
+                        <p><strong>Broj studenata: </strong>90</p>
+                        <p><strong>Broj vjezbi: </strong>10</p>
+                        <p><strong>Broj spirala: </strong>4</p>
+                    </div>
+                    <div class="godine">
+                        <p>2016/17</p>
+                        <p><strong>Broj studenata: </strong>90</p>
+                        <p><strong>Broj vjezbi: </strong>10</p>
+                        <p><strong>Broj spirala: </strong>4</p>
+                    </div>
+                    <div class="godine">
+                            <p>2017/18</p>
+                            <p><strong>Broj studenata: </strong>90</p>
+                            <p><strong>Broj vjezbi: </strong>10</p>
+                            <p><strong>Broj spirala: </strong>4</p>
+                    </div>
+                    <div class="godine">
+                            <p>2018/19</p>
+                            <p><strong>Broj studenata: </strong>90</p>
+                            <p><strong>Broj vjezbi: </strong>10</p>
+                            <p><strong>Broj spirala: </strong>4</p>
+                    </div>
+                </div>-->
+            </section>
+        </div>
+<footer id="footer">
+        <p>Web tehnologije 2018/19</p>
+</footer>
+<script src="/assets/addGodina.js"></script>  
+</body>
+</html>

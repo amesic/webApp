@@ -1,0 +1,306 @@
+{
+  "testId" : "1-zadaci.gspec",
+  "name" : "zadaci.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  zadaci.gspec --url http://localhost/zadaci.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: zadaci.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541512150987,
+          "sections" : [ {
+            "name" : "header section",
+            "place" : {
+              "filePath" : "zadaci.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "inside header",
+                "highlight" : [ "meni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "below logo",
+                "highlight" : [ "meni", "logo" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside header",
+                "highlight" : [ "logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "above meni",
+                "highlight" : [ "logo", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "left-of naslov",
+                "highlight" : [ "logo", "naslov" ]
+              } ]
+            }, {
+              "name" : "naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside header",
+                "highlight" : [ "naslov", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "above meni -25px",
+                "highlight" : [ "naslov", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "right-of logo",
+                "highlight" : [ "naslov", "logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "body section",
+            "place" : {
+              "filePath" : "zadaci.gspec",
+              "lineNumber" : 26
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "above cetvrtina",
+                "highlight" : [ "header", "cetvrtina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "above polovina",
+                "highlight" : [ "header", "polovina" ]
+              } ]
+            }, {
+              "name" : "cetvrtina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "below header",
+                "highlight" : [ "cetvrtina", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "above footer",
+                "highlight" : [ "cetvrtina", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "width 49 to 50 % of screen/width",
+                "highlight" : [ "cetvrtina" ]
+              } ]
+            }, {
+              "name" : "zagodine",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "width 24 to 25 % of screen/width",
+                "highlight" : [ "zagodine" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "above zaimena -526px",
+                "highlight" : [ "zagodine", "zaimena" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "below header",
+                "highlight" : [ "zagodine", "header" ]
+              } ]
+            }, {
+              "name" : "zaimena",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "width 24 to 25 % of screen/width",
+                "highlight" : [ "zaimena" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "above polovina -526px",
+                "highlight" : [ "zaimena", "polovina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "below zagodine -526px",
+                "highlight" : [ "zaimena", "zagodine" ]
+              } ]
+            }, {
+              "name" : "polovina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "below header",
+                "highlight" : [ "polovina", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "above footer",
+                "highlight" : [ "polovina", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "width 49 to 50 % of screen/width",
+                "highlight" : [ "polovina" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "above footer",
+                "highlight" : [ "polovina", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "below cetvrtina -526px",
+                "highlight" : [ "polovina", "cetvrtina" ]
+              } ]
+            } ]
+          }, {
+            "name" : "footer",
+            "place" : {
+              "filePath" : "zadaci.gspec",
+              "lineNumber" : 55
+            },
+            "objects" : [ {
+              "name" : "footerPara",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaci.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "inside footer",
+                "highlight" : [ "footerPara", "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 2, 24, 989, 44 ]
+            },
+            "zagodine" : {
+              "area" : [ 0, 79, 248, 526 ]
+            },
+            "footerPara" : {
+              "area" : [ 20, 660, 953, 22 ]
+            },
+            "naslov" : {
+              "area" : [ 729, 6, 213, 43 ]
+            },
+            "zaimena" : {
+              "area" : [ 248, 79, 248, 526 ]
+            },
+            "footer" : {
+              "area" : [ 0, 640, 993, 62 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 993, 79 ]
+            },
+            "logo" : {
+              "area" : [ 21, 2, 32, 22 ]
+            },
+            "polovina" : {
+              "area" : [ 496, 79, 496, 560 ]
+            },
+            "cetvrtina" : {
+              "area" : [ 0, 79, 496, 526 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541512145334,
+        "type" : "node"
+      } ],
+      "time" : 1541512126410,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "testId" : "1-login.gspec",
+  "name" : "login.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  login.gspec --url http://localhost/login.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: login.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541500818033,
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "login.gspec",
+              "lineNumber" : 4
+            },
+            "objects" : [ {
+              "name" : "login",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "login.gspec",
+                  "lineNumber" : 6
+                },
+                "name" : "centered all inside screen",
+                "highlight" : [ "login", "screen" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "screen" : {
+              "area" : [ 0, 0, 1010, 682 ]
+            },
+            "login" : {
+              "area" : [ 353, 189, 304, 304 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541500814112,
+        "type" : "node"
+      } ],
+      "time" : 1541500795240,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,57 @@
+@objects
+   naslov h1
+   header #header
+   logo .logo
+   meni #meni 
+   cetvrtina .cetvrtina
+   zagodine .cetvrtina .zagodine
+   zaimena .cetvrtina .zaimena
+   polovina .polovina
+   vjezbe .polovina .folder #vjezbe
+   spirale .polovina .folder #spirale
+   footer #footer
+   footerPara #footer p
+= header section =
+    meni:
+        inside header
+        below logo
+    logo:
+        inside header
+        above meni
+        left-of naslov
+    naslov:
+        inside header
+        above meni -25px
+        right-of logo
+= body section =
+    header:
+        above cetvrtina
+        above polovina
+    cetvrtina:
+        @on desktop
+        below header
+        above footer
+        width 49 to 50 % of screen/width
+    zagodine:
+        @on desktop
+        width 24 to 25 % of screen/width
+        @on mobile
+        above zaimena -526px
+        below header
+    zaimena:
+        @on desktop
+        width 24 to 25 % of screen/width
+        @on mobile
+        above polovina -526px
+        below zagodine -526px
+    polovina:
+        @on desktop
+        below header
+        above footer
+        width 49 to 50 % of screen/width
+        @on mobile
+        above footer
+        below cetvrtina -526px
+= footer =
+    footerPara:
+        inside footer

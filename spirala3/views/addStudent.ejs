@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>addStudent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/addStudent.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/headerfooter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="/assets/validacija.js"></script>
+</head>
+<body>
+    <header id="header">
+        <img class="logo" src="/assets/logo.png" alt="logo">
+            <nav id="meni">
+            <ul>
+                <li><a href="zadaci.html">Pregled godina</a></li>
+                <li><a href="addGodina.html">Dodavanje godina</a></li>
+                <li><a href="studenti.html">Pregled studenata</a></li>
+                <li><a href="addVjezba.html">Dodavanje vjezbi</a></li>
+                <li><a href="addZadatak.html">Dodavanje zadataka</a></li>
+                <li><a href="#">Dodavanje studenata</a></li>
+                <li><a href="commiti.html">Commiti</a></li>
+                </ul>
+            </nav>  
+            <h1>Dodavanje studenta</h1> 
+        </header>
+
+    <section id="glavniSadrzaj">
+            <br>
+
+            <form id="fPojedinacni" name="fPojedinacni" action="#" method="POST">
+                <p>Pojedinacni unos</p>
+                <label>Godina</label><br>
+                <select name="godina"><!--dropdown list-->
+                    <option>2018/19</option>
+                </select><br><br>
+                <label>Ime i prezime</label><br>
+                <input type="text" name="ime" id="ime" required><br><br>
+                <label>Index</label><br>
+                <input type="number" name="index" id="index" required><br><br>
+                <label>Email</label><br>
+                <input type="email" name="email" required><br><br>
+                <div id="poruka">Sljedeca polja nisu validna:</div>
+                <input type="submit" name="submit" value="Unesi" onclick="return provjeri()">
+            </form>
+
+            <form id="fMasovni" name="fMasovni" action="#" method="POST">
+                <p>Masovni unos</p>
+                <label>Godina</label><br>
+                <select name="godina"><!--dropdown list-->
+                    <option>2018/19</option>
+                    </select><br><br>
+                    <label>CSV fajl</label><br>
+                    <input type="file" name="csvlista"><br><br>
+                    <input type="submit" name="submit" value="Unesi">
+                </form>
+
+            </section>
+            <footer id="footer">
+                    <p>Web tehnologije 2018/19</p>
+                </footer>
+                <script src="/assets/addStudent.js"></script>
+    
+</body>
+</html>

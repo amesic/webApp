@@ -1,0 +1,139 @@
+*{ /*default*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+@media only screen and (min-width: 601px){
+/*header*/
+.logo{
+    height: 4%;
+    width: 4%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+h1{
+    position: absolute;
+    right:5%;
+    top:1%;
+}
+#meni{
+    margin-bottom: 1%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 20px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*glavni*/
+section p{
+    margin-bottom: 2%;
+}
+section{
+    margin-top:4%;
+    margin-left:3%;
+    margin-bottom: 4%;
+}
+#commiti{
+    border-collapse: collapse;
+    width:50%;
+    margin-left:3%;
+    margin-bottom: 5%;
+    text-align: center;
+    height: 50%;
+}
+#commiti th{
+    background-color: #8ADFB4;
+    padding: 2.5%;
+}
+#naziv{
+    width: 25%;
+}
+#commiti td{
+    background-color: #AAFED3;
+    padding: 2.5%;
+}
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+}
+}
+@media only screen and (max-width: 600px){
+/*header*/
+.logo{
+    height: 7%;
+    width: 7%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+} 
+h1{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 10px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*glavni*/
+section p{
+    margin-bottom: 2%;
+}
+section{
+    margin-top:4%;
+    margin-left:3%;
+    margin-bottom: 4%;
+}
+#commiti{
+    border-collapse: collapse;
+    width:70%;
+    margin-left:3%;
+    margin-bottom: 5%;
+    
+}
+#commiti th{
+    background-color: #8ADFB4;
+    padding: 1.5%;
+}
+#commiti td{
+    background-color: #AAFED3;
+    padding:1.5%;
+}
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+}
+
+}

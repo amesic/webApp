@@ -1,0 +1,225 @@
+{
+  "testId" : "1-addstudent.gspec",
+  "name" : "addStudent.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  addStudent.gspec --url http://localhost/addStudent.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: addStudent.gspec included tags: ",
+          "status" : "error",
+          "time" : 1541520839481,
+          "sections" : [ {
+            "name" : "header section",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 11
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 13
+                },
+                "name" : "inside header",
+                "errors" : [ "\"meni\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "below logo",
+                "errors" : [ "\"meni\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "inside header",
+                "errors" : [ "\"logo\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "above meni",
+                "errors" : [ "\"logo\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 18
+                },
+                "name" : "left-of naslov",
+                "errors" : [ "\"logo\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "naslov",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside header",
+                "errors" : [ "\"header\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "above meni -25px",
+                "errors" : [ "\"meni\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "right-of logo",
+                "errors" : [ "\"logo\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "body section",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 23
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "above glavniSadrzaj",
+                "errors" : [ "\"header\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "glavniSadrzaj",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "width 84 to 85 % of screen/width",
+                "errors" : [ "\"glavniSadrzaj\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "width 84 to 100 % of screen/width",
+                "errors" : [ "\"glavniSadrzaj\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "formaP",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside glavniSadrzaj",
+                "errors" : [ "\"formaP\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "above formaM",
+                "errors" : [ "\"formaP\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            }, {
+              "name" : "formaM",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside glavniSadrzaj",
+                "errors" : [ "\"formaM\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "above footer",
+                "errors" : [ "\"formaM\" is absent on page" ],
+                "highlight" : [ ]
+              }, {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "below formaP",
+                "errors" : [ "\"formaM\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          }, {
+            "name" : "footer",
+            "place" : {
+              "filePath" : "addStudent.gspec",
+              "lineNumber" : 38
+            },
+            "objects" : [ {
+              "name" : "footerPara",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "addStudent.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "inside footer",
+                "errors" : [ "\"footerPara\" is absent on page" ],
+                "highlight" : [ ]
+              } ]
+            } ]
+          } ],
+          "objects" : { },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541520836540,
+        "type" : "node"
+      } ],
+      "time" : 1541520821923,
+      "type" : "node"
+    } ]
+  }
+}

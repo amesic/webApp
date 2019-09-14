@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "login.gspec",
+    "startedAt" : 1541500795232,
+    "endedAt" : 1541500822198,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-login.gspec",
+    "duration" : 26966,
+    "failed" : false
+  } ]
+}

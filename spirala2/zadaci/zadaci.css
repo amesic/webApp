@@ -1,0 +1,110 @@
+body{
+    background: #A1AEB5;
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#poruka{
+    display: none;
+    margin-bottom: 2%;
+}
+/*cetvrtina*/
+.cetvrtina .zagodine p,.cetvrtina .zaimena p{
+    text-align: center;
+    margin-top:20%;
+    margin-bottom: 10%;
+}
+.cetvrtina .zagodine ul,.cetvrtina .zaimena ul{
+    height:17em; 
+    overflow:hidden; 
+    overflow-y:scroll;
+    background-color: white;
+    list-style-type: none;
+}
+.cetvrtina .zagodine ul li,.cetvrtina .zaimena ul li{
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+form{
+    text-align: center;
+}
+input[type="text"]{
+    font-size: 1em;
+    margin-bottom: 2%;
+    width: 70%;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+input[type="submit"]{
+    width: 72%;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
+/*polovina*/
+.polovina #vjezbe,.polovina #spirale{
+    border: 1px solid;
+    margin-left:10%;
+    margin-bottom: 3%;
+}
+.polovina #vjezbe p, .polovina #spirale p{
+    margin-left:5%;
+    margin-bottom: 1%;
+    margin-top:2%;
+}
+.polovina #vjezbe div, .polovina #spirale div{
+    border:1px solid;
+    background-color: bisque;
+}
+.item{
+    float:left;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    padding: 5%;
+}
+#vjezbe, #spirale{
+    display: table;
+    width:80%;
+}
+.item{
+    display: table-cell;
+}
+@media only screen and (min-width: 601px){
+/*glavni dio, pomijeranje*/
+#glavni{
+    display: table;
+    width: 100%;
+}
+.cetvrtina .zaimena{
+    display: table-cell;
+    width: 25%;
+}
+.cetvrtina .zagodine{
+    display: table-cell;
+    width: 25%;
+}
+.polovina{
+    display: table-cell;
+    width: 50%;
+}
+/*cetvrtine*/
+.cetvrtina .zagodine ul,.cetvrtina .zaimena ul{
+    margin-left:20%;
+    margin-right: 20%;
+    margin-bottom: 27%;
+}
+}
+@media only screen and (max-width: 600px){
+/*cetvrtine*/
+.cetvrtina .zagodine p,.cetvrtina .zaimena p{
+    margin-top:10%;
+}
+.cetvrtina .zagodine ul,.cetvrtina .zaimena ul{
+    margin-left:15%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+}
+}

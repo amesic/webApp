@@ -1,0 +1,75 @@
+body{
+    background-color: #92DAA1;
+}
+#poruka{
+    display: none;
+    margin-bottom: 2%;
+    text-align: center;
+}
+/*glavni*/
+#glavniSadrzaj{
+    margin: 0 auto;
+    background-color: #A1AEB5;
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#forma{
+    border: 1px solid black;
+    margin-right: 25%;
+    margin-left:25%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background: white;
+}
+#noviZadatak p{
+    margin-bottom: 7%;
+    font-size: 2em;
+    text-align: center;
+}
+label{
+    margin-left: 5%;
+    font-size:1em;
+}
+input[type="text"],input[type="file"]{
+    margin-left:5%;
+    padding: 0.2em;
+    width:80%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+}
+select{
+    width:81.5%;
+    margin-left:5%;
+    padding: 0.2em;
+    background: none;
+    border: 1px solid black;
+}
+input[type="submit"]{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-left: 61.5%;
+    margin-bottom: 5%;
+    width: 25%;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #F7FB7D;
+}
+@media only screen and (min-width: 601px){
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 85%;
+    height: 100%;
+}
+}
+@media only screen and (max-width: 600px){
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 100%;
+}
+}

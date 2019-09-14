@@ -1,0 +1,68 @@
+body{
+font-family: 'Open Sans', sans-serif;
+background-image: url(pozadina.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#login{
+border: 2px solid #A0EEB2;
+text-align: center;
+width: 300px;
+height: 350px;  
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+form{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+display: table;
+width: 100%;
+}
+input[type="submit"]{
+margin-left: 50%;
+padding-top:0.5em;
+padding-bottom: 0.5em;
+padding-left: 2em;
+padding-right: 2em;
+border-radius: 5px;
+font-size: 1em;	
+background: none; 
+border: 1px solid #A0EEB2;
+color:white;
+cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: #A0EEB2;
+}
+input[type="text"], input[type="password"]{
+font-size: 1em;
+margin-bottom: 5%;
+margin-top: 5%;
+margin-left:2%;
+background: none; 
+border:none;
+border-bottom: 1px solid #A0EEB2;
+}
+.user{
+position: absolute;
+right:35%;
+top:-28%;
+width: 26%;
+height: 47%;
+}
+label{
+    color:white;
+}
+input::placeholder{
+    color: #9C9C9C;
+}
+#poruka{
+    display: none;
+    color: white;
+    font-size: 0.8em;
+}

@@ -1,0 +1,203 @@
+*{ /*default*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+@media only screen and (min-width: 601px){ 
+/*header*/
+.logo{
+    height: 4%;
+    width: 4%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+h1{
+    position: absolute;
+    right:5%;
+    top:1%;
+}
+#meni{
+    margin-bottom: 1%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+    display: block;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 20px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+    /*glavni*/
+    #glavniSadrzaj{
+        max-width: 85%;
+        margin: 0 auto;
+        background-color: #A1AEB5;
+        padding-bottom: 1%;
+    }
+#fPojedinacni{
+    background-color: beige;
+    border:1px solid aquamarine;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(../addVjezba/pozadina.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+#fMasovni{
+    background-color: aquamarine;
+    border:1px solid beige;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(../addVjezba/pozadina.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+#fPojedinacni p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fMasovni p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fPojedinacni label, #fMasovni label,input[type="text"],input[type="email"],input[type="number"],input[type="file"]{
+    margin-left:5%;
+    padding: 0.2em;
+    width:77.5%;
+    font-size: 1em;
+}
+select{
+    margin-left:5%;
+    padding: 0.2em;
+    width:78.5%;
+    font-size: 1em;
+}
+input[type="submit"]{
+    width: 20%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin-left: 64%;
+    margin-bottom: 5%;
+}
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+}
+}
+@media only screen and (max-width: 600px){ 
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #A1AEB5;
+    padding-bottom: 1%;
+}
+/*header*/
+.logo{
+    height: 7%;
+    width: 7%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+} 
+h1{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 10px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+#fPojedinacni{
+    background-color: beige;
+    border:1px solid aquamarine;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(../addVjezba/pozadina.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+#fMasovni{
+    background-color: aquamarine;
+    border:1px solid beige;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(../addVjezba/pozadina.jpg);
+    background-repeat: no-repeat;
+    color: white;
+}
+#fPojedinacni p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fMasovni p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fPojedinacni label, #fMasovni label,input[type="text"],input[type="email"],input[type="number"],input[type="file"]{
+    margin-left:5%;
+    padding: 0.2em;
+    width:77.5%;
+    font-size: 1em;
+}
+select{
+    margin-left:5%;
+    padding: 0.2em;
+    width:78.5%;
+    font-size: 1em;
+}
+input[type="submit"]{
+    width: 20%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin-left: 64%;
+    margin-bottom: 5%;
+}
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+}
+}

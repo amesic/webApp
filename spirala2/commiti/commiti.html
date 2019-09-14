@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Commiti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="commiti.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../headerfooter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="../committabela.js"></script>
+    <script src="../validacija.js"></script>
+</head>
+<body>
+    <header id="header">
+            <img class="logo" src="../studenti/logo.png" alt="logo">
+            <nav id="meni">
+                <ul>
+                <li><a href="../zadaci/zadaci.html">Pregled godina</a></li>
+                <li><a href="../addGodina/addGodina.html">Dodavanje godina</a></li>
+                <li><a href="../studenti/studenti.html">Pregled studenata</a></li>
+                <li><a href="../addVjezba/addVjezba.html">Dodavanje vjezbi</a></li>
+                <li><a href="../addZadatak/addZadatak.html">Dodavanje zadataka</a></li>
+                <li><a href="../addStudent/addSudent.html">Dodavanje studenata</a></li>
+                <li><a href="#">Commiti</a></li>
+                </ul>
+            </nav>  
+            <h1>Pregled commita</h1> 
+        </header>
+
+    <section>
+        <p><strong>Student:</strong> Neko Nekic, 1234</p>
+        <p><strong>Naziv vjezbe/spirale:</strong> Vjezba 1</p>
+        <p><strong>Repozitorij:</strong> <a href="#">Hyperlink</a></p>
+    </section>
+
+    <form action="#" method="POST">
+        <div id="zakreiraj">
+        <label>Broj zadataka: </label><br><br>
+        <input type="number" id="brojZadataka" required><br><br>
+        <input type="button" value="Kreiraj" onclick="kreirajTabelu()">
+        </div>
+
+        <div id="izbor" onclick="prikazi()">
+        <label>IZABERI</label><br><br>
+        <input type="radio" name="izbor" id="dodaj"> dodaj 
+        <input type="radio" name="izbor" id="edituj"> edituj
+        <input type="radio" name="izbor" id="izbrisi"> izbrisi<br><br>
+        </div>
+
+        <div id="zadodaj">
+        <label>Dodaj commit: </label><br>
+        <label>Red: </label><br>
+        <input type="number" id="brojRedaD"><br>
+        <label>Url: </label><br>
+        <input type="text" id="urlD">
+        <div id="poruka">Sljedeca polja nisu validna: </div>
+        <input type="button" value="Dodaj" onclick="dodajComm()"><br>
+        </div>
+
+        <div id="zaedituj">
+        <label>Red: </label><br>
+        <input type="number" id="brojRedaE"><br>
+        <label>Kolona: </label><br>
+        <input type="number" id="brojKoloneE"><br>
+        <label>Url: </label><br>
+        <input type="text" id="urlE">
+        <input type="button" value="Edituj" onclick="editujComm()"><br>
+        </div>
+
+        <div id="zaizbrisi">
+        <label>Red: </label><br>
+        <input type="number" id="brojRedaI"><br>
+        <label>Kolona: </label><br>
+        <input type="number" id="brojKoloneI">
+        <input type="button" value="Izbrisi" onclick="izbrisiComm()"><br>
+        </div>
+
+    </form>
+
+
+    <div id="tabela"></div>
+    <footer id="footer">
+            <p>Web tehnologije 2018/19</p>
+        </footer>
+<script src="commiti.js"></script> 
+</body>
+</html>

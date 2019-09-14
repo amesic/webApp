@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "addVjezba.gspec",
+    "startedAt" : 1541517619141,
+    "endedAt" : 1541517647633,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 17,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 17
+    },
+    "testId" : "1-addvjezba.gspec",
+    "duration" : 28492,
+    "failed" : false
+  } ]
+}

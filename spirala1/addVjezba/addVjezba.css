@@ -1,0 +1,281 @@
+*{ /*default*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+@media only screen and (min-width: 601px){ 
+/*header*/
+.logo{
+    height: 4%;
+    width: 4%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+h1{
+    position: absolute;
+    right:5%;
+    top:1%;
+}
+#meni{
+    margin-bottom: 1%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+    display: block;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 20px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: #A1AEB5;
+    padding-bottom: 1%;
+    }
+#fPostojeca{
+    background-color: beige;
+    border:1px solid aquamarine;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#fNova{
+    background-color: aquamarine;
+    border:1px solid beige;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#fPostojeca p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fNova p{
+    font-size: 2em;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left:17%;
+}
+#fPostojeca label, #fNova label, select,input[type="text"]{
+    margin-left:17%;
+}
+#sub1{
+padding-bottom: 0.5%;
+padding-top: 0.5%;
+margin-left: 64%;
+margin-bottom: 5%;
+width: 20%;
+}
+select{
+    font-size: 1em;
+    width: 50.5%;
+}
+input[type="text"]{
+    width:50%;
+    font-size: 1em;
+}
+fieldset{
+    margin-left:17%;
+    margin-right:32.5%;
+}
+#zajedno{
+    display: table;
+    width: 100%;
+}
+#sZadatak{
+    display: table-cell;
+    width: 50%;
+}
+input[type="button"]{
+    display: table-cell;
+    width: 20%;
+    margin-left:2%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+#zajednoo{
+    display: table;
+    width: 40%;
+    margin-left:17%;
+    margin-bottom: 5%;
+}
+input[type="checkbox"]{
+    display: table-cell;
+}
+#lspirala{
+    display: table-cell;
+}
+#sub2{
+    display: table-cell;
+    width:100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+}
+}
+@media only screen and (max-width: 600px){ 
+/*header*/
+.logo{
+    height: 7%;
+    width: 7%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+} 
+h1{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 10px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #A1AEB5;
+    padding-bottom: 1%;
+}
+#fPostojeca{
+    background-color: beige;
+    border:1px solid aquamarine;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#fNova{
+    background-color: aquamarine;
+    border:1px solid beige;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#fPostojeca p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fNova p{
+    font-size: 2em;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left:17%;
+}
+#fPostojeca label, #fNova label, select,input[type="text"]{
+    margin-left:17%;
+}
+#sub1{
+padding-bottom: 0.5%;
+padding-top: 0.5%;
+width: 20%;
+margin-left: 64%;
+margin-bottom: 5%;
+}
+select{
+    font-size: 1em;
+    width: 50.5%;
+}
+input[type="text"]{
+    width:50%;
+    font-size: 1em;
+}
+fieldset{
+    margin-left:17%;
+    margin-right:32.5%;
+}
+#zajedno{
+    display: table;
+    width: 100%;
+}
+#sZadatak{
+    display: table-cell;
+    width: 50%;
+}
+input[type="button"]{
+    display: table-cell;
+    width: 20%;
+    margin-left:2%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+}
+#zajednoo{
+    display: table;
+    width: 40%;
+    margin-left:17%;
+    margin-bottom: 5%;
+}
+input[type="checkbox"]{
+    display: table-cell;
+}
+#lspirala{
+    display: table-cell;
+}
+#sub2{
+    display: table-cell;
+    width:100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+/*footer*/
+#footer{
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+    margin-top:0%;
+}
+}
+

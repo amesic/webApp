@@ -1,0 +1,46 @@
+@objects
+   naslov h1
+   side #side
+   glavniSadrzaj #glavniSadrzaj
+   glavni #glavni
+   footer #footer
+   header #header
+   logo .logo
+   meni #meni 
+   footerPara #footer p
+= header section =
+    meni:
+        inside header
+        below logo
+    logo:
+        inside header
+        above meni
+        left-of naslov
+    naslov:
+        inside header
+        above meni
+        right-of logo
+= body section =
+    header:
+        above glavni
+    glavniSadrzaj:
+        @on desktop
+        below header
+        above footer
+        width 64 to 65 % of screen/width
+        @on mobile
+        below side -598px
+        above footer
+    side:
+        @on desktop
+        below header
+        above footer
+        width 34 to 35 % of screen/width
+        @on mobile
+        above glavniSadrzaj -598px
+        below header
+    footer:
+        below glavni
+= footer =
+    footerPara:
+        inside footer

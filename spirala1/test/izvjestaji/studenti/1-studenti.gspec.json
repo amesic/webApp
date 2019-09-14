@@ -1,0 +1,268 @@
+{
+  "testId" : "1-studenti.gspec",
+  "name" : "studenti.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  studenti.gspec --url http://localhost/studenti.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: studenti.gspec included tags: ",
+          "status" : "info",
+          "time" : 1541508893940,
+          "sections" : [ {
+            "name" : "header section",
+            "place" : {
+              "filePath" : "studenti.gspec",
+              "lineNumber" : 14
+            },
+            "objects" : [ {
+              "name" : "meni",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 16
+                },
+                "name" : "inside header",
+                "highlight" : [ "meni", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 17
+                },
+                "name" : "below logo",
+                "highlight" : [ "meni", "logo" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 19
+                },
+                "name" : "inside header",
+                "highlight" : [ "logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "above meni",
+                "highlight" : [ "logo", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 21
+                },
+                "name" : "left-of naslov",
+                "highlight" : [ "logo", "naslov" ]
+              } ]
+            }, {
+              "name" : "naslov",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 23
+                },
+                "name" : "inside header",
+                "highlight" : [ "naslov", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "above meni",
+                "highlight" : [ "naslov", "meni" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 25
+                },
+                "name" : "right-of logo",
+                "highlight" : [ "naslov", "logo" ]
+              } ]
+            } ]
+          }, {
+            "name" : "body section",
+            "place" : {
+              "filePath" : "studenti.gspec",
+              "lineNumber" : 26
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "above glavni",
+                "highlight" : [ "header", "glavni" ]
+              } ]
+            }, {
+              "name" : "glavniSadrzaj",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "below header",
+                "highlight" : [ "glavniSadrzaj", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "above footer",
+                "highlight" : [ "glavniSadrzaj", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "width 64 to 65 % of screen/width",
+                "highlight" : [ "glavniSadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "below side -598px",
+                "highlight" : [ "glavniSadrzaj", "side" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "above footer",
+                "highlight" : [ "glavniSadrzaj", "footer" ]
+              } ]
+            }, {
+              "name" : "side",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "below header",
+                "highlight" : [ "side", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "above footer",
+                "highlight" : [ "side", "footer" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "width 34 to 35 % of screen/width",
+                "highlight" : [ "side" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "above glavniSadrzaj -598px",
+                "highlight" : [ "side", "glavniSadrzaj" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "below header",
+                "highlight" : [ "side", "header" ]
+              } ]
+            }, {
+              "name" : "footer",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "below glavni",
+                "highlight" : [ "footer", "glavni" ]
+              } ]
+            } ]
+          }, {
+            "name" : "footer",
+            "place" : {
+              "filePath" : "studenti.gspec",
+              "lineNumber" : 47
+            },
+            "objects" : [ {
+              "name" : "footerPara",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "studenti.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "inside footer",
+                "highlight" : [ "footerPara", "footer" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "meni" : {
+              "area" : [ 2, 66, 989, 44 ]
+            },
+            "footerPara" : {
+              "area" : [ 20, 740, 953, 22 ]
+            },
+            "naslov" : {
+              "area" : [ 661, 6, 282, 43 ]
+            },
+            "glavniSadrzaj" : {
+              "area" : [ 347, 122, 645, 598 ]
+            },
+            "side" : {
+              "area" : [ 0, 122, 347, 598 ]
+            },
+            "footer" : {
+              "area" : [ 0, 720, 993, 62 ]
+            },
+            "glavni" : {
+              "area" : [ 0, 122, 993, 598 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 993, 122 ]
+            },
+            "logo" : {
+              "area" : [ 21, 11, 39, 39 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1541508888352,
+        "type" : "node"
+      } ],
+      "time" : 1541508870558,
+      "type" : "node"
+    } ]
+  }
+}

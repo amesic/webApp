@@ -1,0 +1,34 @@
+@objects
+   naslov h1
+   header #header
+   logo .logo
+   meni #meni
+   podaci section
+   tabela article
+   footer #footer
+   footerPara #footer p
+= header section =
+    meni:
+        inside header
+        below logo
+    logo:
+        inside header
+        above meni
+        left-of naslov
+    naslov:
+        inside header
+        above meni -25px
+        right-of logo
+= body section =
+    header:
+        above podaci
+        above tabela
+    podaci:
+        below header
+        above tabela
+    tabela:
+        below podaci
+        above footer
+= footer =
+    footerPara:
+        inside footer

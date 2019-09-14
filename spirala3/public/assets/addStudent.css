@@ -1,0 +1,77 @@
+body{
+    background-color: #FFC197;
+}
+#poruka{
+    display: none;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+#glavniSadrzaj{
+    margin: 0 auto;
+    background-color: #F2A878;
+    padding-bottom: 1%;
+}
+#fPojedinacni{
+    background-color: #BF855F;
+    border:1px solid #BF855F;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-repeat: no-repeat;
+    color: white;
+}
+#fMasovni{
+    background-color: #BF855F;
+    border:1px solid #BF855F;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:15%;
+    margin-right: 15%;
+    background-repeat: no-repeat;
+    color: white;
+}
+#fPojedinacni p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fMasovni p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#fPojedinacni label, #fMasovni label,input[type="text"],input[type="email"],input[type="number"],input[type="file"]{
+    margin-left:5%;
+    padding: 0.2em;
+    width:77.5%;
+    font-size: 1em;
+}
+select{
+    margin-left:5%;
+    padding: 0.2em;
+    width:78.5%;
+    font-size: 1em;
+}
+input[type="submit"]{
+    width: 20%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    margin-left: 64%;
+    margin-bottom: 5%;
+}
+@media only screen and (min-width: 601px){ 
+    /*glavni*/
+#glavniSadrzaj{
+    max-width: 85%;
+}
+}
+@media only screen and (max-width: 600px){ 
+/*glavni*/
+#glavniSadrzaj{
+    max-width: 100%;
+}
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>addVjezba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="addVjezba.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+            <img class="logo" src="../studenti/logo.png" alt="logo">
+             <nav id="meni">
+                <ul>
+                 <li><a href="../zadaci/zadaci.html">Pregled godina</a></li>
+                 <li><a href="../addGodina/addGodina.html">Dodavanje godina</a></li>
+                 <li><a href="../studenti/studenti.html">Pregled studenata</a></li>
+                 <li><a href="#">Dodavanje vjezbi</a></li>
+                 <li><a href="../addZadatak/addZadatak.html">Dodavanje zadataka</a></li>
+                 <li><a href="../addStudent/addSudent.html">Dodavanje studenata</a></li>
+                 <li><a href="../commiti/commiti.html">Commiti</a></li>
+                 </ul>
+             </nav>  
+             <h1>Dodavanje vjezbe/spirale</h1> 
+         </header>
+         <section id="glavniSadrzaj">
+             <br>
+                <form id="fPostojeca" name="fPostojeca" action="" method="POST">
+                    <p>Dodavanje postojece vjezbe/spirale</p>
+                    <label>Godina</label><br>
+                    <select name="sGodine"><!--dropdown list-->
+                        <option>2018/19</option>
+                    </select><br><br>
+                    <label>Vjezbe/Spirale</label><br>
+                    <select name="sVjezbe"> <!--dropdown list-->
+                        <option>Vjezba X</option>
+                    </select><br><br>
+                    <input id="sub1" type="submit" name="submit" value="Dodaj">
+                </form>
+                <form id="fNova" name="fNova" action="" method="POST">
+                     <p>Nova vjezba/spirala</p>
+                     <label>Naziv vjezbe</label><br>
+                     <input type="text" name="vjezbaX"><br><br>
+                     <label>Godina</label><br>
+                     <select name="sGodine"><!--dropdown list-->
+                        <option>2018/19</option>
+                    </select><br><br>
+                    <fieldset>
+                        <label>Zadatak 1</label><br><br>
+                        <label>Zadatak 2</label><br><br>
+                        <label>Zadatak 3</label><br><br>
+                    </fieldset><br><br>
+                    <div id="zajedno">
+                    <select id="sZadatak" name="sZadatak"><!--dropdown list-->
+                        <option>Zadatak X</option>
+                    </select>
+                    <input type="button" name="dZadatak" value="Dodaj zadatak"><br><br>
+                </div>
+                <div id="zajednoo">
+                    <input type="checkbox" name="spirala">
+                    <label id="lspirala" style="margin-left: 0px">Spirala</label>
+                    <input id="sub2" type="submit" name="submit" value="Dodaj">
+                </div>
+                </form>
+            </section>
+            <footer id="footer">
+                    <p>Web tehnologije 2018/19</p>
+                </footer>
+    
+</body>
+</html>

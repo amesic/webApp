@@ -1,0 +1,198 @@
+*{ /*default*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+@media only screen and (min-width: 601px){ 
+/*header*/
+.logo{
+    height: 4%;
+    width: 4%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+}
+h1{
+    position: absolute;
+    right:5%;
+    top:1%;
+}
+#meni{
+    margin-bottom: 1%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 20px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*glavni*/
+#glavni{
+    display: table;
+    width: 100%;
+}
+/*side*/
+#side{
+    background-color:rgb(243, 179, 209); 
+    display: table-cell;  
+    width:35%;
+}
+#f p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#f label{
+    margin-left:5%;
+    padding: 0.2em;
+    padding-right: 1.8em;
+}
+input[type="text"]{
+    width:80%;
+    margin-left:5%;
+}
+#dugmad{
+    display: table;
+    width: 100%;
+}
+input[type="button"],input[type="submit"]{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+}
+input[type="button"]{
+    margin-left:5%;
+    padding: 0.8%;
+}
+input[type="submit"]{
+    margin-left:21%;
+    padding: 1%;
+}
+
+#glavniSadrzaj{
+    background-color:rgb(150, 231, 147);
+    display: table-cell;
+    width: 65%;
+    padding-left: 13.5%;
+    padding-top:4%;
+    padding-bottom: 4%;
+}
+.godine{
+    border: 2px solid rgb(32, 78, 18);
+    background-color: rgb(164, 243, 177);
+    float:left;
+    margin-right: 7%;
+    margin-left: 2%;
+    padding: 5%;
+    margin-bottom: 3%;
+    display: table-cell;
+}
+#godina{
+    display: table;
+}
+/*footer*/
+#footer{
+    clear: both;
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+}
+}
+@media only screen and (max-width: 600px){
+/*header*/
+.logo{
+    height: 7%;
+    width: 7%;
+    margin-left:2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+} 
+h1{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+#header{
+    background-color: #C3DBE7;
+    border: 2px solid #A1AEB5;
+}
+#meni ul li{
+    display: inline-block; /*da svi budu u redu, ne ispod*/
+}
+#meni ul li a{
+    padding: 10px 10px;
+    color: #3F494E;
+}
+#meni ul li a:hover{
+    color:black;
+}
+/*side*/
+#side{
+    background-color:rgb(243, 179, 209); 
+}
+#f p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#f label{
+    margin-left:5%;
+    padding: 0.2em;
+    padding-right: 1.8em;
+}
+input[type="text"]{
+    width:80%;
+    margin-left:5%;
+}
+#dugmad{
+    display: table;
+    width: 100%;
+}
+input[type="button"],input[type="submit"]{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+}
+input[type="button"]{
+    margin-left:5%;
+    padding: 0.8%;
+}
+input[type="submit"]{
+    margin-left:21%;
+    padding: 1%;
+}
+#glavniSadrzaj{
+    background-color:rgb(150, 231, 147);
+    padding-left: 13.5%;
+    padding-top:4%;
+    padding-bottom: 4%;
+}
+.godine{
+    border: 2px solid rgb(32, 78, 18);
+    background-color: rgb(164, 243, 177);
+    float:left;
+    margin-right: 7%;
+    margin-left: 2%;
+    padding: 5%;
+    margin-bottom: 3%;
+    display: table-cell;
+}
+#godina{
+    display: table;
+}
+/*footer*/
+#footer{
+    clear: both;
+    background: #F7FB7D;
+    text-align: center;
+    padding: 20px;
+}
+}
+}

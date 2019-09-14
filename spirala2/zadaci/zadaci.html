@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Zadaci</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="zadaci.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../headerfooter.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="../validacija.js"></script>
+    <script src="zadaci.js"></script>
+</head>
+<body>
+    <header id="header">
+        <img class="logo" src="../studenti/logo.png" alt="logo">
+        <nav id="meni">
+            <ul>
+            <li><a href="#">Pregled godina</a></li>
+            <li><a href="../addGodina/addGodina.html">Dodavanje godina</a></li>
+            <li><a href="../studenti/studenti.html">Pregled studenata</a></li>
+            <li><a href="../addVjezba/addVjezba.html">Dodavanje vjezbi</a></li>
+            <li><a href="../addZadatak/addZadatak.html">Dodavanje zadataka</a></li>
+            <li><a href="../addStudent/addSudent.html">Dodavanje studenata</a></li>
+            <li><a href="../commiti/commiti.html">Commiti</a></li>
+            </ul>
+        </nav>  
+        <h1>Odabir vjezbe</h1> 
+    </header>
+
+    <div id="glavni">
+
+    <aside class="cetvrtina">
+
+        <div class="zagodine">
+        <p>Godina</p>
+        <ul id="godina">
+            <li>Godina 2014/15</li>
+            <li>Godina 2015/16</li>
+            <li>Godina 2016/17</li>
+            <li>Godina 2017/18</li>
+            <li>Godina 2018/19</li>
+        </ul>
+    </div>
+
+    <div class="zaimena">
+        <p>Student</p>
+        <form action="#" method="POST" >
+            <input type="text" name="query" id="query"><br/>
+            <div id="poruka">Sljedeca polja nisu validna:</div>
+            <input type="submit" value="Search" onclick="return provjeri()">
+        </form><br>
+
+        <ul id="imena">
+            <li>Ime i prezime | Index</li>
+            <li>Neko Nekic | 12345</li>
+            <li>Neko Nekic | 12345</li>
+            <li>Neko Nekic | 12345</li>
+            <li>Neko Nekic | 12345</li>
+            <li>Neko Nekic | 12345</li>
+        </ul>
+    </div>
+    </aside>
+
+    <section class="polovina">
+        <div class="folder">
+
+            <div id="vjezbe">
+            <p>Vjezbe</p>
+            <div class="item">Vjezba 1</div>
+            <div class="item">Vjezba 2</div>
+            <div class="item">Vjezba 3</div>
+            <div class="item">Vjezba 4</div>
+            <div class="item">Vjezba 5</div>
+            <div class="item">Vjezba 6</div>
+            </div>
+
+            <div id="spirale">
+            <p>Spirale</p>
+            <div class="item">Spirala 1</div>
+            <div class="item">Spirala 2</div>
+            <div class="item">Spirala 3</div>
+            <div class="item">Spirala 4</div>
+            </div>
+        </div>
+    </section>
+</div>
+    <footer id="footer">
+        <p>Web tehnologije 2018/19</p>
+    </footer>
+</body>
+</html>

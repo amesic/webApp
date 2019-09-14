@@ -1,0 +1,76 @@
+#poruka{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    display: none;
+}
+/*side*/
+#side{
+    background-color:rgb(243, 179, 209); 
+}
+#f p{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#f label{
+    margin-left:5%;
+    padding: 0.2em;
+    padding-right: 1.8em;
+}
+input[type="text"]{
+    width:80%;
+    margin-left:5%;
+}
+#dugmad{
+    display: table;
+    width: 100%;
+}
+input[type="button"],input[type="submit"]{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+}
+input[type="button"]{
+    margin-left:5%;
+    padding: 0.8%;
+}
+input[type="submit"]{
+    margin-left:21%;
+    padding: 1%;
+}
+#glavniSadrzaj{
+    background-color:rgb(150, 231, 147);
+    padding-left: 13.5%;
+    padding-top:4%;
+    padding-bottom: 4%;
+}
+/*.godine{
+    border: 2px solid rgb(32, 78, 18);
+    background-color: rgb(164, 243, 177);
+    float:left;
+    margin-right: 7%;
+    margin-left: 2%;
+    padding: 5%;
+    margin-bottom: 3%;
+    display: table-cell;
+}*/
+#sadrzaj{
+    display: table;
+    margin-left: -10%;
+}
+@media only screen and (min-width: 601px){ 
+/*glavni*/
+#glavni{
+    display: table;
+    width: 100%;
+}
+/*side*/
+#side{
+    display: table-cell;  
+    width:35%;
+}
+#glavniSadrzaj{
+    display: table-cell;
+    width: 65%;
+}
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#izbor, #zakreiraj{
+    margin-left:3%;
+    border: 3px solid;
+    width: 20%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+input[type="button"]{
+margin-left: 50%;
+margin-bottom: 3%;
+margin-top: 3%;
+padding-top:0.5em;
+padding-bottom: 0.5em;
+padding-left: 2em;
+padding-right: 2em;
+border-radius: 5px;
+font-size: 1em;	
+background: none; 
+border: 1px solid;
+cursor: pointer;
+}
+#zadodaj, #zaedituj, #zaizbrisi{
+    display: none;
+    margin-left: 3%;
+    border: 3px solid;
+    width: 20%;
+    margin-bottom: 2%;
+}
+#poruka{
+    display: none;
+}
+/*glavni*/
+section p{
+    margin-bottom: 2%;
+}
+section{
+    margin-top:4%;
+    margin-left:3%;
+    margin-bottom: 4%;
+}
+@media only screen and (max-width: 600px){
+#izbor, #zakreiraj{
+    width: 70%;
+}
+#zadodaj, #zaedituj, #zaizbrisi{
+    width: 70%;
+}
+}

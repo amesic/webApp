@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>addZadatak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="addZadatak.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+            <img class="logo" src="../studenti/logo.png" alt="logo">
+            <nav id="meni">
+                <ul>
+                <li><a href="../zadaci/zadaci.html">Pregled godina</a></li>
+                <li><a href="../addGodina/addGodina.html">Dodavanje godina</a></li>
+                <li><a href="../studenti/studenti.html">Pregled studenata</a></li>
+                <li><a href="../addVjezba/addVjezba.html">Dodavanje vjezbi</a></li>
+                <li><a href="#">Dodavanje zadataka</a></li>
+                <li><a href="../addStudent/addSudent.html">Dodavanje studenata</a></li>
+                <li><a href="../commiti/commiti.html">Commiti</a></li>
+                </ul>
+            </nav>  
+            <h1>Dodavanje zadatka</h1> 
+        </header>
+
+        <section id="glavniSadrzaj">
+            <br>
+            <article id="forma">
+            <form id="noviZadatak" action="" method="POST">
+                <p>Novi zadatak</p>
+                <label>Naziv zadatka</label><br>
+                <input type="text" name="naziv"><br><br>
+                <label>Tekst postavke</label><br>
+                <input type="file" name="file_upload"><br><br>
+                <label>Vjezbe/Spirale</label><br>
+                <select><!--dropdown list-->
+                    <option>Vjezba X</option>
+                </select><br><br>
+                <input type="submit" value="Dodaj">
+            </form>
+        </article>
+        <br>
+        </section>
+        <footer id="footer">
+                <p>Web tehnologije 2018/19</p>
+            </footer>
+
+    
+</body>
+</html>

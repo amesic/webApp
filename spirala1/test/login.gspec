@@ -1,0 +1,6 @@
+@objects
+    login   #login
+
+= Main section =
+    login:
+        centered all inside screen 
