@@ -2,7 +2,7 @@
 
 My first web application, project from the college.
 
-###Used:
+### Used:
 - JavaScript
 - HTML5
 - CSS3
